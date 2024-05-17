@@ -1,30 +1,44 @@
 @charset "UTF-8";
 
-
 body{
-	background-color: #E1E1E1;/*color de fondo*/
-    color: black;/*color de las letras*/
+	background-color: #A2C8FB;
+	line-height: 90%;
 }
-label{
-	font: 110% cursive;/*%para agrandar o achicar el tamaño de las letras y  cambiar el tipo de letra*/
-	margin: 0;
+#encabezado{
+	color: black;/*color de letra*/
+	font: 100% fantasy;
+	text-align: center;
+}
+.enlaces{
+	text-align: left;
+	font-family:  monospace;
+	padding: 0px;
+}
+.links {
+	line-height: 100%;
+	word-spacing: 1px;/*espacio entre palabras*/
+	letter-spacing: 0px;/* epsacio entre letras*/
+	text-decoration: underline;/*Subrallado*/
+}
+.medio{
+	background-color: #8EAFDC;
+	padding: 0px;
+	margin: 0px;
+}	
+.cuerpo{
+	font: 100% cursive;
+	line-height: 90%;
+	background-color: #7F9CC4;
 	padding: 0;
-	line-height: 130%; /* espacio entre lineas */
 }
-option{
-	font: 140% monospace;
+.subtitulo{
+	
+	
 }
-header{
-	font-family: serif;/*tipo de letra*/
-	color: #065715;
+.dentro{
+	
+	
 }
-footer{
-	color: #88690F;
-}
-
-/*cuando se usa el elemento <style> , se puede usar <! -- --> para ocultar CSS para navegadores antiguos*/
-
-
 
 
 
