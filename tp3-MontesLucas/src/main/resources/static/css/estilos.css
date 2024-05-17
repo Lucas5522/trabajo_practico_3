@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
 body{
-	background-color: #A2C8FB;
+	background-color: #FABEBD;
 	line-height: 90%;
+	margin: 0px;/*margenes del uadro rosa*/
 }
 #encabezado{
 	color: black;/*color de letra*/
@@ -18,29 +19,46 @@ body{
 	line-height: 100%;
 	word-spacing: 1px;/*espacio entre palabras*/
 	letter-spacing: 0px;/* epsacio entre letras*/
-	text-decoration: underline;/*Subrallado*/
+	text-decoration: none;/*Subrallado*/
 }
 .medio{
-	background-color: #8EAFDC;
-	padding: 0px;
-	margin: 0px;
+	background-color: #F8ED96;
+	padding: 5px;/*Margenes en las lineas del cuadro central*/
+	margin: 0px;/*margenes del cuadro central amarillo*/
 }	
 .cuerpo{
 	font: 100% cursive;
 	line-height: 90%;
-	background-color: #7F9CC4;
-	padding: 0;
+	padding: 1px;
+	margin: 0px;
 }
 .subtitulo{
-	
-	
+	font-family: monospace;
+	font-size: x-large;
+	font-style: italic;
+	text-decoration: underline;
 }
 .dentro{
-	
-	
+	font-family: serif;
+	font-size: medium;
 }
 
-
-
-
+.extra{
+	background-color: #D0C97F;
+}
+.imagen{
+	
+	margin: 20%;
+  	padding: 10%;
+  	text-decoration: none;
+  	
+}
+.imagenjava{
+	height: 250px;
+  	width: 450px;
+}
+.piepagina{
+	font-family: serif;
+	text-align: left;
+}
 
