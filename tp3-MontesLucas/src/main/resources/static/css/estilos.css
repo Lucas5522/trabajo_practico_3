@@ -61,4 +61,35 @@ body{
 	font-family: serif;
 	text-align: left;
 }
+/*en las siguientes etiquetas edito un poco la tabla para que si se diferencie que es una tabla,
+dado que coloque muy poco contenido dentro de la tabla cuesta diferenciar si es una tabla de un texto*/
+table {
+  	table-layout: fixed;
+  	width: 100%;
+  	border-collapse: collapse;
+  	border: 1px solid #000;
+  	text-align: left;
+}
+th, td{
+	width: 25%;
+   	text-align: left;
+ 	  vertical-align: top;
+ 	  border: 1px solid #000;
+ 	  border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
