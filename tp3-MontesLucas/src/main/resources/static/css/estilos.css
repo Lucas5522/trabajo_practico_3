@@ -3,11 +3,11 @@
 body{
 	background-color: #FABEBD;
 	line-height: 90%;
-	margin: 0px;/*margenes del uadro rosa*/
+	margin: 0px;/*margenes del cuadro rosa*/
 }
 #encabezado{
 	color: black;/*color de letra*/
-	font: 100% fantasy;
+	font: 100% italic;
 	text-align: center;
 }
 .enlaces{
@@ -73,13 +73,24 @@ table {
 th, td{
 	width: 25%;
    	text-align: left;
- 	  vertical-align: top;
- 	  border: 1px solid #000;
- 	  border-collapse: collapse;
+ 	vertical-align: top;
+ 	border: 1px solid #000;
+ 	border-collapse: collapse;
 }
-
-
-
+/*Modificando el form-cliente.html*/
+.contenido{
+	font: 130% cursive;
+	vertical-align: top;
+	line-height: 25px;/*espacio entre lineas*/
+	 
+	
+}
+.foter{
+	color: #785A47;
+	text-decoration: none;
+	
+	
+}
 
 
 
