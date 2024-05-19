@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+	background-color: #FABEBD;
+	line-height: 90%;
+	margin: 0px;/*margenes del cuadro rosa*/
+}
+#encabezado{
+	color: black;/*color de letra*/
+	font: 100% italic;
+	text-align: center;
+}
+.enlaces{
+	text-align: left;
+	font-family:  monospace;
+	padding: 0px;
+}
+.links {
+	line-height: 100%;
+	word-spacing: 1px;/*espacio entre palabras*/
+	letter-spacing: 0px;/* epsacio entre letras*/
+	text-decoration: none;/*Subrallado*/
+}
+.medio{
+	background-color: #F8ED96;
+	padding: 5px;/*Margenes en las lineas del cuadro central*/
+	margin: 0px;/*margenes del cuadro central amarillo*/
+}	
+.cuerpo{
+	font: 100% cursive;
+	line-height: 90%;
+	padding: 1px;
+	margin: 0px;
+}
+.subtitulo{
+	font-family: monospace;
+	font-size: x-large;
+	font-style: italic;
+	text-decoration: underline;
+}
+.dentro{
+	font-family: serif;
+	font-size: medium;
+}
+
+.extra{
+	background-color: #D0C97F;
+}
+.imagen{
+	
+	margin: 20%;
+  	padding: 10%;
+  	text-decoration: none;
+  	
+}
+.imagenjava{
+	height: 250px;
+  	width: 450px;
+}
+.piepagina{
+	font-family: serif;
+	text-align: left;
+}
+/*en las siguientes etiquetas edito un poco la tabla para que si se diferencie que es una tabla,
+dado que coloque muy poco contenido dentro de la tabla cuesta diferenciar si es una tabla de un texto*/
+table {
+  	table-layout: fixed;
+  	width: 100%;
+  	border-collapse: collapse;
+  	border: 1px solid #000;
+  	text-align: left;
+}
+th, td{
+	width: 25%;
+   	text-align: left;
+ 	vertical-align: top;
+ 	border: 1px solid #000;
+ 	border-collapse: collapse;
+}
+/*Modificando el form-cliente.html*/
+.contenido{
+	font: 130% cursive;
+	vertical-align: top;
+	line-height: 25px;/*espacio entre lineas*/
+	 
+	
+}
+.foter{
+	color: #785A47;
+	text-decoration: none;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

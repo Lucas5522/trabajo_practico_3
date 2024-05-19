@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de cliente</title>
+	<link rel="stylesheet" href="../static/css/estilos.css">
+</head>
+<body>
+	<header id="encabezado">
+		<h1>Registro de Cliente</h1>
+	</header>
+	<form action="#" method="post">
+		
+		<label class="contenido" for="dni">DNI: </label>
+		<input type="number" id="dni" name="dni" required="required"><br>
+		
+		<label class="contenido" for="nombre">Nombres: </label>
+		<input type="text" id="nombres" name="nombres" required="required"><br>
+		
+		<label class="contenido" for="apellidos">Apellidos: </label>
+		<input type="text" id="apellidos" name="apellidos" required="required"><br>
+		
+		<label class="contenido" for="fechanaimiento">Fecha de nacimiento: </label>
+		<input type="date" id="fechanacimeinto" name="fechanacimiento" required="required"><br>
+		
+		<label class="contenido" for="genero">Genero:
+			Femenino:<input type="radio" name="genero">
+			Masculino:<input type="radio" name="genero">
+			x:<input type="radio" name="genero"></label><br>
+			
+		<label class="contenido" for="correo">Correo electronico: </label>
+		<input type="email" id="correo" name="correo" required="required"><br>
+		
+		<label class="contenido" for="domicilio">Domicilio: </label>
+		<input type="text" id="domicilio" name="domicilio" required="required"><br>
+		
+		<label class="contenido" for="provincia">Provincia: </label>
+		<select id="provincia" name="provincia" required="required">
+			<option></option>
+			<option value="JUJUY">Jujuy</option>
+			<option value="SALTA">Salta</option>
+			<option value="TUCUMAN">Tucuman</option>
+		</select><br>
+		
+		<label class="contenido" for="celular">Numero de Telefono celular: </label>
+		<input type="number" id="celular" name="celular" ><br>
+		
+		<label class="contenido" for="categoria">Seleccionar las categorias de interes</label>
+		<input type="checkbox" id="categoria" name="categoria"><br>
+		
+		<label class="contenido" for="categoria">Sugerencia para la empresa</label>
+		<textarea id="categoria" name="categoria" cols="50" rows="2" wrap="hard">Ingrese sugerencia de empresa</textarea><br>
+		
+		<label class="contenido" for="contraseña">Password: </label>
+		<input type="text" id="contraseña" name="contraseña" required="required"><br>
+		
+		<label class="contenido" for="condicion">Acepto los términos y condiciones</label>
+		<input type="checkbox" id="condicion" name="condicion" required="required"><br>
+		
+		<label class="contenido" for="informacion">Acepto recibir información relativa a la empresa</label>
+		<input type="checkbox" id="informacion" name="informacion"><br>
+	</form>
+	
+	
+	
+</body>
+<footer class="foter"><p>Informacion de contacto:</p></footer>
+<footer class="foter"><p>G-mail: lucasmontes522@gmail.com </p></footer>
+<footer class="foter"><a class="foter" href="https://www.google.com/intl/es-419/gmail/about/">Inicie sesion para contactarnos</a></footer>
+</html>
